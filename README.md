@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎥 YouTube Sentiment Analysis Platform
 
-## Getting Started
+Built during a 48-hour hackathon at **Technex, IIT BHU**, this project leverages **Web Scraping**, **Sentiment Analysis**, and **Data Visualization** to offer creators and viewers deep insights into YouTube content feedback.
 
-First, run the development server:
+🚀 Selected among the **Top 15 teams nationally**, our project blends **full-stack web development** with **AI-powered analytics**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔍 Project Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Given the rising need for real-time feedback analysis, we developed a platform that scrapes **YouTube video comments** and provides sentiment insights to:
 
-## Learn More
+- Viewers seeking genuine video reviews
+- Creators aiming to improve their content
+- Analysts monitoring public response
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🎥 **YouTube Video Comment Analysis**  
+  Scrapes and analyzes sentiments (positive/negative/neutral) from video comments
 
-## Deploy on Vercel
+- 📊 **Channel-wise Sentiment Summary**  
+  Tracks sentiment across multiple videos from a single channel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 💬 **Top Comment Highlight & Summarization**  
+  Extracts and summarizes the most liked and insightful comments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🤖 **AI-powered Chatbot**  
+  An integrated chatbot to interact with users and interpret results dynamically
+
+---
+
+## 🛠️ Tech Stack
+
+| Area       | Technologies Used           |
+|------------|-----------------------------|
+| Frontend   | React.js, HTML, CSS         |
+| Backend    | Python, Flask               |
+| Scraping   | `youtube-comment-downloader`, `BeautifulSoup`, Selenium  
+| NLP        | Scikit-learn, NLTK / SpaCy, TextBlob / Transformers  
+| AI Chatbot | OpenAI GPT API (optional module)  
+| Deployment | (Planned): Render / PythonAnywhere / Replit
+
+---
+
+
