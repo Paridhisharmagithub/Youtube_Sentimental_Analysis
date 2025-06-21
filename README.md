@@ -40,9 +40,8 @@ Given the rising need for real-time feedback analysis, we developed a platform t
 | Frontend   | React.js, HTML, CSS         |
 | Backend    | Python, Flask               |
 | Scraping   | `youtube-comment-downloader`, `BeautifulSoup`, Selenium  
-| NLP        | Scikit-learn, NLTK / SpaCy, TextBlob / Transformers  
-| AI Chatbot | OpenAI GPT API (optional module)  
-| Deployment | (Planned): Render / PythonAnywhere / Replit
+| NLP        | Scikit-learn, NLTK  
+
 
 ---
 
