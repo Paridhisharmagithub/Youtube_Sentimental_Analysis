@@ -16,7 +16,7 @@ export default function Home() {
             </p>
             <p className="mt-4 text-sm sm:text-base md:text-lg text-gray-600" >Uncover the real audience sentiment—raw, unfiltered, and insightful</p>
             <p className="text-xl mb-8 text-gray-800">
-              Ready to see beyond the views? Let's dive in!
+              Ready to see beyond the views? Let&apos;s dive in!
             </p>
             <button className="mt-6 px-6 py-3 h-14 bg-linear-to-t from-[#03B0C4] to-[#077FAC] text-white rounded-lg transition-all duration-300 hover:shadow-[6px_6px_10px_rgba(0,0,0,0.3)] hover:scale-105"><Link href="/choice">Get Started</Link>
             </button>
